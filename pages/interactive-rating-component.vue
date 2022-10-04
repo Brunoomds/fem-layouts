@@ -1,12 +1,12 @@
 <template>
-	<div class="min-h-screen bg-[hsl(216,12%,8%)] grid place-items-center font-[Overpass] p-4 text-white">
+	<div class="bg-[hsl(216,12%,8%)] min-h-screen grid place-items-center p-4 font-[Overpass] text-white">
 		<div
 			class="rounded-3xl bg-[hsl(213,19%,18%)] relative overflow-hidden before:content-[''] before:absolute before:[background:radial-gradient(circle_at_top,transparent,rgba(0,0,0,0.2),rgba(0,0,0,0.34))] before:inset-0 w-full max-w-md shadow-xl"
 		>
 			<div v-show="!thankYou" class="relative space-y-8 p-8">
 				<div class="p-4 shadow-md rounded-full bg-[hsl(213,19%,18%)] w-fit">
 					<img
-						src="/frontendmentor/imgs/interactive-rating-component/icon-star.svg"
+						src="/projects/imgs/interactive-rating-component/icon-star.svg"
 						alt=""
 						class="w-4 aspect-square"
 					/>
@@ -38,7 +38,7 @@
 			</div>
 			<div v-show="thankYou" class="relative space-y-10 px-8 py-12 text-center">
 				<img
-					src="/frontendmentor/imgs/interactive-rating-component/illustration-thank-you.svg"
+					src="/projects/imgs/interactive-rating-component/illustration-thank-you.svg"
 					alt=""
 					class="mx-auto"
 				/>
@@ -48,7 +48,7 @@
 					</p>
 				</div>
 				<div class="space-y-4">
-					<h2 class="text-2xl sm:text-3xl font-bold text-center">Thank you!</h2>
+					<h2 class="text-2xl sm:text-3xl font-bold">Thank you!</h2>
 					<p class="text-[hsl(216,12%,54%)]">
 						We appreciate you taking the time to give a rating. If you ever need more support, don't
 						hesitate to get in touch!
