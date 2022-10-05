@@ -144,11 +144,11 @@ export default {
 					path: '/single-price-grid-component',
 					img: '/projects/thumbs/single-price-grid-component.jpg',
 				},
-				{
-					title: 'Four Card Feature Section',
-					path: '/four-card-feature-section',
-					img: '/projects/thumbs/four-card-feature-section.jpg',
-				}
+				// {
+				// 	title: 'Four Card Feature Section',
+				// 	path: '/four-card-feature-section',
+				// 	img: '/projects/thumbs/four-card-feature-section.jpg',
+				// }
 			],
 		}
 	},
