@@ -13,12 +13,12 @@
 					class="w-full h-full object-cover hidden sm:block"
 				/>
 			</div>
-			<div class="p-5 bg-white font-[Montserrat] space-y-4">
+			<div class="p-8 bg-white font-[Montserrat] space-y-4">
 				<p class="text-[hsl(228,12%,48%)] text-xs sm:text-sm tracking-widest">PERFUME</p>
 				<p class="font-[Fraunces] text-2xl sm:text-3xl text-[hsl(212,21%,14%)]">
 					Gabrielle Essence Eau De Parfum
 				</p>
-				<p class="text-sm sm:text-base text-[hsl(228,12%,48%)]">
+				<p class="text-sm text-[hsl(228,12%,48%)]">
 					A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the
 					House of CHANEL.
 				</p>

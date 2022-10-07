@@ -134,21 +134,21 @@ export default {
 					path: '/profile-card-component',
 					img: '/projects/thumbs/profile-card-component.jpg',
 				},
-				// {
-				// 	title: 'Article Preview Component',
-				// 	path: '/article-preview-component',
-				// 	img: '/projects/thumbs/article-preview-component.jpg',
-				// },
 				{
 					title: 'Single Price Grid Component',
 					path: '/single-price-grid-component',
 					img: '/projects/thumbs/single-price-grid-component.jpg',
 				},
-				// {
-				// 	title: 'Four Card Feature Section',
-				// 	path: '/four-card-feature-section',
-				// 	img: '/projects/thumbs/four-card-feature-section.jpg',
-				// }
+				{
+					title: 'Four Card Feature Section',
+					path: '/four-card-feature-section',
+					img: '/projects/thumbs/four-card-feature-section.jpg',
+				},
+				{
+					title: 'Social Proof Section',
+					path: '/social-proof-section',
+					img: '/projects/thumbs/social-proof-section.jpg',
+				}
 			],
 		}
 	},

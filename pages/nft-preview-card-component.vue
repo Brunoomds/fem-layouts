@@ -1,6 +1,6 @@
 <template>
 	<div class="bg-[hsl(217,54%,11%)] min-h-screen grid place-items-center p-4 font-[Outfit]">
-		<div class="w-full max-w-xs bg-[hsl(216,50%,16%)] p-4 rounded-2xl shadow-2xl text-[hsl(215,51%,70%)] space-y-6">
+		<div class="w-full max-w-xs bg-[hsl(216,50%,16%)] p-6 rounded-2xl shadow-2xl text-[hsl(215,51%,70%)] space-y-6">
 			<div class="rounded-lg overflow-hidden relative">
 				<img src="/projects/imgs/nft-preview-card-component/image-equilibrium.jpg" alt="" />
 				<a
@@ -17,7 +17,7 @@
 				>
 					Equilibrium #3429
 				</a>
-				<p class="text-lg">Our Equilibrium collection promotes balance and calm.</p>
+				<p>Our Equilibrium collection promotes balance and calm.</p>
 				<div class="flex justify-between items-center gap-2">
 					<div class="flex items-center gap-2">
 						<img src="/projects/imgs/nft-preview-card-component/icon-ethereum.svg" alt="" />
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 			</div>
-			<hr class="border-[hsl(215,32%,27%)]" />
+			<hr class="border-t-2 border-[hsl(215,32%,27%)]" />
 			<div class="flex items-center gap-4">
 				<img
 					src="/projects/imgs/nft-preview-card-component/image-avatar.png"
