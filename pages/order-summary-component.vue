@@ -1,9 +1,9 @@
 <template>
-	<div
-		class="bg-[hsl(225,100%,94%)] min-h-screen grid place-items-center p-4 font-['Red_Hat_Display'] bg-no-repeat bg-contain bg-[url(/projects/imgs/order-summary-component/pattern-background-mobile.svg)] md:bg-[url(/projects/imgs/order-summary-component/pattern-background-desktop.svg)]"
+	<section
+		class="bg-[hsl(225,100%,94%)] min-h-screen grid place-items-center p-4 font-['Red_Hat_Display'] bg-no-repeat bg-contain bg-[url(/projects/assets/order-summary-component/pattern-background-mobile.svg)] md:bg-[url(/projects/assets/order-summary-component/pattern-background-desktop.svg)]"
 	>
 		<div class="w-full max-w-sm rounded-2xl overflow-hidden text-[hsl(223,47%,23%)] text-center">
-			<img src="/projects/imgs/order-summary-component/illustration-hero.svg" alt="" />
+			<img src="/projects/assets/order-summary-component/illustration-hero.svg" alt="" />
 			<div class="bg-white p-6 sm:p-8">
 				<div class="space-y-2 mb-6">
 					<h2 class="text-xl font-black">Order Summary</h2>
@@ -14,7 +14,7 @@
 				</div>
 				<div class="p-4 rounded-lg bg-[hsl(225,100%,98%)] flex justify-between items-center gap-4 text-sm mb-8">
 					<div class="flex items-center gap-2">
-						<img src="/projects/imgs/order-summary-component/icon-music.svg" alt="" class="h-10" />
+						<img src="/projects/assets/order-summary-component/icon-music.svg" alt="" class="h-10" />
 						<div class="text-left">
 							<h2 class="font-black">Annual Plan</h2>
 							<p class="text-[hsl(224,23%,55%)]">$59.99/year</p>
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

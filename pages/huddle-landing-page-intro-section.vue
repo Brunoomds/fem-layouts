@@ -1,12 +1,12 @@
 <template>
-	<div
-		class="bg-[hsl(257,40%,49%)] min-h-screen flex justify-center bg-no-repeat bg-contain md:bg-cover bg-[url(/projects/imgs/huddle-landing-page-intro-section/bg-mobile.svg)] md:bg-[url(/projects/imgs/huddle-landing-page-intro-section/bg-desktop.svg)]"
+	<section
+		class="bg-[hsl(257,40%,49%)] min-h-screen flex justify-center bg-no-repeat bg-contain md:bg-cover bg-[url(/projects/assets/huddle-landing-page-intro-section/bg-mobile.svg)] md:bg-[url(/projects/assets/huddle-landing-page-intro-section/bg-desktop.svg)]"
 	>
 		<div class="flex-grow max-w-lg xl:max-w-7xl px-8 py-10 flex flex-col justify-between items-start gap-12">
-			<img src="/projects/imgs/huddle-landing-page-intro-section/logo.svg" alt="" class="h-12" />
+			<img src="/projects/assets/huddle-landing-page-intro-section/logo.svg" alt="" class="h-12" />
 			<div class="flex flex-col xl:flex-row items-center gap-12 text-white">
 				<img
-					src="/projects/imgs/huddle-landing-page-intro-section/illustration-mockups.svg"
+					src="/projects/assets/huddle-landing-page-intro-section/illustration-mockups.svg"
 					alt=""
 					class="w-full max-w-2xl"
 				/>
@@ -45,7 +45,7 @@
 				</a>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

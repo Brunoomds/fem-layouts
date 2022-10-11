@@ -1,8 +1,8 @@
 <template>
-	<div class="bg-[hsl(233,47%,7%)] min-h-screen grid place-items-center font-[Inter] p-4">
+	<section class="bg-[hsl(233,47%,7%)] min-h-screen grid place-items-center font-[Inter] p-4">
 		<div class="grid lg:grid-cols-2 rounded-xl overflow-hidden w-full max-w-md lg:max-w-5xl">
 			<div
-				class="bg-[hsl(277,64%,61%)] bg-blend-multiply bg-[url(/projects/imgs/stats-preview-card-component/image-header-mobile.jpg)] lg:bg-[url(/projects/imgs/stats-preview-card-component/image-header-desktop.jpg)] w-full h-60 lg:h-full bg-no-repeat bg-cover lg:order-1"
+				class="bg-[hsl(277,64%,61%)] bg-blend-multiply bg-[url(/projects/assets/stats-preview-card-component/image-header-mobile.jpg)] lg:bg-[url(/projects/assets/stats-preview-card-component/image-header-desktop.jpg)] w-full h-60 lg:h-full bg-no-repeat bg-cover lg:order-1"
 			></div>
 			<div class="p-8 lg:p-14 bg-[hsl(244,38%,16%)] text-center lg:text-left text-white space-y-10 lg:space-y-14">
 				<div class="space-y-4 lg:space-y-6">
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

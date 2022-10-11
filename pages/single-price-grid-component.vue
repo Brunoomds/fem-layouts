@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-[hsl(204,43%,93%)] min-h-screen grid place-items-center p-4 font-[Karla]">
+	<section class="bg-[hsl(204,43%,93%)] min-h-screen grid place-items-center p-4 font-[Karla]">
 		<div class="grid md:grid-cols-2 w-full max-w-sm md:max-w-3xl rounded-lg overflow-hidden shadow-lg">
 			<div class="p-6 md:p-10 bg-white space-y-4 col-span-full">
 				<h2 class="font-bold text-2xl text-[hsl(179,62%,43%)]">Join our community</h2>
@@ -37,7 +37,7 @@
 				</ul>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

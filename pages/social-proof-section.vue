@@ -1,6 +1,20 @@
 <template>
-	<div class="bg-white min-h-screen grid place-items-center font-['League_Spartan'] px-4 py-20">
-		<div class="w-full max-w-xs xl:max-w-6xl space-y-16">
+	<section class="bg-white min-h-screen grid place-items-center font-['League_Spartan'] px-4 py-20 relative">
+		<picture class="absolute left-0 top-0">
+			<source
+				media="(min-width: 640px)"
+				srcset="/projects/assets/social-proof-section/bg-pattern-top-desktop.svg"
+			/>
+			<img src="/projects/assets/social-proof-section/bg-pattern-top-mobile.svg" alt="" />
+		</picture>
+		<picture class="absolute left-0 sm:left-auto right-0 bottom-0">
+			<source
+				media="(min-width: 640px)"
+				srcset="/projects/assets/social-proof-section/bg-pattern-bottom-desktop.svg"
+			/>
+			<img src="/projects/assets/social-proof-section/bg-pattern-bottom-mobile.svg" alt="" />
+		</picture>
+		<div class="w-full max-w-xs xl:max-w-6xl space-y-16 relative">
 			<div class="text-center flex flex-col xl:items-center gap-6 xl:flex-row xl:justify-between xl:text-left">
 				<div class="space-y-5 max-w-sm">
 					<h2 class="text-[hsl(300,43%,22%)] text-4xl xl:text-5xl leading-7 font-bold">
@@ -16,7 +30,7 @@
 						class="bg-[hsl(300,24%,96%)] p-4 xl:pl-8 xl:pr-16 rounded-lg flex flex-col xl:flex-row gap-3 xl:gap-8 items-center xl:-translate-x-20"
 					>
 						<div class="flex items-center gap-3">
-							<img v-for="star in 5" src="/projects/imgs/social-proof-section/icon-star.svg" alt="" />
+							<img v-for="star in 5" src="/projects/assets/social-proof-section/icon-star.svg" alt="" />
 						</div>
 						<p class="text-[hsl(300,43%,22%)] leading-none font-bold">Rating 5 Stars in Reviews</p>
 					</div>
@@ -24,7 +38,7 @@
 						class="bg-[hsl(300,24%,96%)] p-4 xl:pl-8 xl:pr-16 rounded-lg flex flex-col xl:flex-row gap-3 xl:gap-8 items-center xl:-translate-x-10"
 					>
 						<div class="flex items-center gap-3">
-							<img v-for="star in 5" src="/projects/imgs/social-proof-section/icon-star.svg" alt="" />
+							<img v-for="star in 5" src="/projects/assets/social-proof-section/icon-star.svg" alt="" />
 						</div>
 						<p class="text-[hsl(300,43%,22%)] leading-none font-bold">Rated 5 Stars in Report Guru</p>
 					</div>
@@ -32,7 +46,7 @@
 						class="bg-[hsl(300,24%,96%)] p-4 xl:pl-8 xl:pr-16 rounded-lg flex flex-col xl:flex-row gap-3 xl:gap-8 items-center"
 					>
 						<div class="flex items-center gap-3">
-							<img v-for="star in 5" src="/projects/imgs/social-proof-section/icon-star.svg" alt="" />
+							<img v-for="star in 5" src="/projects/assets/social-proof-section/icon-star.svg" alt="" />
 						</div>
 						<p class="text-[hsl(300,43%,22%)] leading-none font-bold">Rated 5 Stars in BestTech</p>
 					</div>
@@ -42,7 +56,7 @@
 				<div class="bg-[hsl(300,43%,22%)] p-6 xl:p-10 space-y-4 rounded-lg">
 					<div class="flex items-center gap-6">
 						<img
-							src="/projects/imgs/social-proof-section/image-colton.jpg"
+							src="/projects/assets/social-proof-section/image-colton.jpg"
 							alt=""
 							class="w-10 rounded-full"
 						/>
@@ -52,14 +66,14 @@
 						</div>
 					</div>
 					<p>
-						"We needed the same printed design as the one we had ordered a week prior. Not only did they find
-						the original order, but we also received it in time. Excellent!"
+						"We needed the same printed design as the one we had ordered a week prior. Not only did they
+						find the original order, but we also received it in time. Excellent!"
 					</p>
 				</div>
 				<div class="bg-[hsl(300,43%,22%)] p-6 xl:p-10 space-y-4 rounded-lg xl:translate-y-4">
 					<div class="flex items-center gap-6">
 						<img
-							src="/projects/imgs/social-proof-section/image-irene.jpg"
+							src="/projects/assets/social-proof-section/image-irene.jpg"
 							alt=""
 							class="w-10 rounded-full"
 						/>
@@ -76,7 +90,7 @@
 				<div class="bg-[hsl(300,43%,22%)] p-6 xl:p-10 space-y-4 rounded-lg xl:translate-y-8">
 					<div class="flex items-center gap-6">
 						<img
-							src="/projects/imgs/social-proof-section/image-anne.jpg"
+							src="/projects/assets/social-proof-section/image-anne.jpg"
 							alt=""
 							class="w-10 rounded-full"
 						/>
@@ -92,7 +106,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

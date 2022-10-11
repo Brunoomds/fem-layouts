@@ -1,18 +1,17 @@
 <template>
-	<div class="bg-[hsl(30,38%,92%)] min-h-screen grid place-items-center p-4">
+	<section class="bg-[hsl(30,38%,92%)] min-h-screen grid place-items-center p-4">
 		<div class="grid sm:grid-cols-2 w-full max-w-xs sm:max-w-xl rounded-2xl overflow-hidden shadow-lg">
-			<div class="h-52 sm:h-auto">
-				<img
-					src="/projects/imgs/product-preview-card-component/image-product-mobile.jpg"
-					alt=""
-					class="w-full h-full object-cover sm:hidden"
+			<picture>
+				<source
+					media="(min-width: 640px)"
+					srcset="/projects/assets/product-preview-card-component/image-product-desktop.jpg"
 				/>
 				<img
-					src="/projects/imgs/product-preview-card-component/image-product-desktop.jpg"
+					src="/projects/assets/product-preview-card-component/image-product-mobile.jpg"
 					alt=""
-					class="w-full h-full object-cover hidden sm:block"
+					class="w-full h-full object-cover"
 				/>
-			</div>
+			</picture>
 			<div class="p-8 bg-white font-[Montserrat] space-y-4">
 				<p class="text-[hsl(228,12%,48%)] text-xs sm:text-sm tracking-widest">PERFUME</p>
 				<p class="font-[Fraunces] text-2xl sm:text-3xl text-[hsl(212,21%,14%)]">
@@ -31,13 +30,13 @@
 						href="#"
 						class="bg-[hsl(158,36%,37%)] hover:bg-[hsl(158,36%,20%)] transition-colors duration-300 p-4 flex justify-center items-center gap-2 rounded-lg"
 					>
-						<img src="/projects/imgs/product-preview-card-component/icon-cart.svg" alt="" />
+						<img src="/projects/assets/product-preview-card-component/icon-cart.svg" alt="" />
 						<p class="text-white font-bold">Add to Cart</p>
 					</a>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

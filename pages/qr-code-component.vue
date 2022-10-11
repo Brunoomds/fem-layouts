@@ -1,8 +1,12 @@
 <template>
-	<div class="bg-[hsl(212,45%,89%)] min-h-screen grid place-items-center p-4 font-[Outfit]">
-		<div class="bg-white p-4 pb-12 rounded-2xl w-full max-w-xs space-y-6 shadow-xl">
-			<img src="/projects/imgs/qr-code-component/image-qr-code.png" alt="" class="w-full rounded-xl" />
-			<div class="text-center space-y-4">
+	<section class="bg-[hsl(212,45%,89%)] min-h-screen grid place-items-center p-4">
+		<div class="bg-white p-4 pb-12 rounded-2xl w-full max-w-xs space-y-6 shadow-xl font-[Outfit]">
+			<img
+				src="/projects/assets/qr-code-component/image-qr-code.png"
+				alt="qr code illustration"
+				class="w-full rounded-xl"
+			/>
+			<div class="text-center space-y-4 px-2">
 				<p class="font-bold text-xl text-[hsl(218,44%,22%)]">
 					Improve your front-end skills by building projects
 				</p>
@@ -11,7 +15,7 @@
 				</p>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

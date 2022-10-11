@@ -1,20 +1,20 @@
 <template>
-	<div class="bg-[hsl(185,75%,39%)] min-h-screen grid place-items-center p-4 font-['Kumbh_Sans']">
+	<section class="bg-[hsl(185,75%,39%)] min-h-screen grid place-items-center p-4 font-['Kumbh_Sans']">
 		<img
-			src="/projects/imgs/profile-card-component/bg-pattern-top.svg"
+			src="/projects/assets/profile-card-component/bg-pattern-top.svg"
 			alt=""
 			class="min-w-max fixed left-0 top-0 -translate-x-3/4 -translate-y-[60%] lg:-translate-x-[25%] lg:-translate-y-[52%]"
 		/>
 		<img
-			src="/projects/imgs/profile-card-component/bg-pattern-bottom.svg"
+			src="/projects/assets/profile-card-component/bg-pattern-bottom.svg"
 			alt=""
 			class="min-w-max fixed right-0 bottom-0 translate-x-3/4 translate-y-[60%] lg:translate-x-[20%] lg:translate-y-[65%]"
 		/>
 		<div class="w-full max-w-sm rounded-xl overflow-hidden text-center relative text-[hsl(229,23%,23%)] shadow-2xl">
-			<img src="/projects/imgs/profile-card-component/bg-pattern-card.svg" alt="" class="w-full object-cover" />
+			<img src="/projects/assets/profile-card-component/bg-pattern-card.svg" alt="" class="w-full object-cover" />
 			<div class="px-4 pb-8 pt-16 relative bg-white">
 				<img
-					src="/projects/imgs/profile-card-component/image-victor.jpg"
+					src="/projects/assets/profile-card-component/image-victor.jpg"
 					alt=""
 					class="rounded-full border-4 border-white absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2"
 				/>
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

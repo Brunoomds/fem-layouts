@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-[hsl(0,0%,98%)] min-h-screen grid place-items-center font-[Poppins] px-4 py-16">
+	<section class="bg-[hsl(0,0%,98%)] min-h-screen grid place-items-center font-[Poppins] px-4 py-16">
 		<div class="w-full space-y-20">
 			<div class="text-center w-full max-w-xs xl:max-w-xl mx-auto space-y-5">
 				<div class="space-y-1">
@@ -24,7 +24,7 @@
 							</p>
 						</div>
 						<img
-							src="/projects/imgs/four-card-feature-section/icon-supervisor.svg"
+							src="/projects/assets/four-card-feature-section/icon-supervisor.svg"
 							alt=""
 							class="w-fit ml-auto"
 						/>
@@ -41,7 +41,7 @@
 								</p>
 							</div>
 							<img
-								src="/projects/imgs/four-card-feature-section/icon-team-builder.svg"
+								src="/projects/assets/four-card-feature-section/icon-team-builder.svg"
 								alt=""
 								class="w-fit ml-auto"
 							/>
@@ -57,7 +57,7 @@
 								</p>
 							</div>
 							<img
-								src="/projects/imgs/four-card-feature-section/icon-karma.svg"
+								src="/projects/assets/four-card-feature-section/icon-karma.svg"
 								alt=""
 								class="w-fit ml-auto"
 							/>
@@ -74,7 +74,7 @@
 							</p>
 						</div>
 						<img
-							src="/projects/imgs/four-card-feature-section/icon-calculator.svg"
+							src="/projects/assets/four-card-feature-section/icon-calculator.svg"
 							alt=""
 							class="w-fit ml-auto"
 						/>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <!--

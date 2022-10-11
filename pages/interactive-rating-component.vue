@@ -1,12 +1,12 @@
 <template>
-	<div class="bg-[hsl(216,12%,8%)] min-h-screen grid place-items-center p-4 font-[Overpass] text-white">
+	<section class="bg-[hsl(216,12%,8%)] min-h-screen grid place-items-center p-4 font-[Overpass] text-white">
 		<div
 			class="rounded-3xl bg-[hsl(213,19%,18%)] relative overflow-hidden before:content-[''] before:absolute before:[background:radial-gradient(circle_at_top,transparent,rgba(0,0,0,0.2),rgba(0,0,0,0.34))] before:inset-0 w-full max-w-md shadow-xl"
 		>
 			<div v-show="!thankYou" class="relative space-y-8 p-8">
 				<div class="p-4 shadow-md rounded-full bg-[hsl(213,19%,18%)] w-fit">
 					<img
-						src="/projects/imgs/interactive-rating-component/icon-star.svg"
+						src="/projects/assets/interactive-rating-component/icon-star.svg"
 						alt=""
 						class="w-4 aspect-square"
 					/>
@@ -38,7 +38,7 @@
 			</div>
 			<div v-show="thankYou" class="relative space-y-10 px-8 py-12 text-center">
 				<img
-					src="/projects/imgs/interactive-rating-component/illustration-thank-you.svg"
+					src="/projects/assets/interactive-rating-component/illustration-thank-you.svg"
 					alt=""
 					class="mx-auto"
 				/>
@@ -56,7 +56,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <script>

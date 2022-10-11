@@ -1,7 +1,7 @@
 <template>
-	<div class="min-h-screen grid place-items-center font-['Libre_Franklin']">
+	<section class="bg-white min-h-screen grid place-items-center font-['Libre_Franklin']">
 		<div class="px-8 py-14 max-w-sm sm:max-w-2xl text-center space-y-12">
-			<img src="/projects/imgs/ping-coming-soon-page/logo.svg" alt="" class="mx-auto" />
+			<img src="/projects/assets/ping-coming-soon-page/logo.svg" alt="" class="mx-auto" />
 			<div class="space-y-6">
 				<div class="space-y-2">
 					<p class="text-2xl sm:text-4xl text-[hsl(0,0%,59%)]">
@@ -34,7 +34,7 @@
 					</button>
 				</form>
 			</div>
-			<img src="/projects/imgs/ping-coming-soon-page/illustration-dashboard.png" alt="" />
+			<img src="/projects/assets/ping-coming-soon-page/illustration-dashboard.png" alt="" />
 			<div class="space-y-8">
 				<div class="flex justify-center items-center gap-2 text-[hsl(223,87%,63%)]">
 					<a
@@ -59,7 +59,7 @@
 				<p class="text-[hsl(0,0%,59%)] text-sm">© Copyright Ping. All rights reserved.</p>
 			</div>
 		</div>
-	</div>
+	</section>
 </template>
 
 <script>
