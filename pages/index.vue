@@ -143,14 +143,21 @@ export default {
 					path: '/social-proof-section',
 					img: '/projects/thumbs/social-proof-section.jpg',
 				},
+				{
+					title: 'Intro Component with Signup Form',
+					path: '/intro-component-with-signup-form',
+					img: '/projects/thumbs/intro-component-with-signup-form.jpg',
+				},
 			],
 		}
 	},
 	computed: {
 		filteredProjects() {
-			return this.frontendProjects.filter((page) => {
-				return page.title.toLowerCase().includes(this.search.toLowerCase())
-			})
+			return this.frontendProjects
+				.filter((page) => {
+					return page.title.toLowerCase().includes(this.search.toLowerCase())
+				})
+				.reverse()
 		},
 	},
 }

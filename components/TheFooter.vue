@@ -36,7 +36,6 @@ export default {
 					link: 'mailto:brunoo.m.d.silva@gmail.com',
 					icon: resolveComponent('IconEmail'),
 				},
-
 				{
 					name: 'Linkedin',
 					link: 'https://www.linkedin.com/in/bruno-m-silva-24bb4222a',
